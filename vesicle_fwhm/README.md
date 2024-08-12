@@ -18,23 +18,23 @@ pip install -e .
 ```
 
 ## Example
-The repository contains a test stack: [test_stack](test_data\test.stack.tif). Download or clone this repository, then:
+The repository contains a test stack: [test_stack](test_data/test.stack.tif). Download or clone this repository, then:
 
 ```
 gaussian_fit_fwhm test_data\test_stack.tif -s 1 -cr 10 -t 0.25 -p 18
 ```
 
 ## Output
-For an input tif file called `test.stack.tif` the script will generate:
+For an input tif file called `test_stack.tif` the script will generate:
 
 ```python
-├── test.stack.tif
-├── test.stack_crops.tif            # the cropped single 3D fits
-└── test.stack_gaussian_fits.csv    # table containing locations and FWHM of all found vesicles
+├── test_stack.tif
+├── test_stack_crops.tif            # the cropped single 3D fits
+└── test_stack_gaussian_fits.csv    # table containing locations and FWHM of all found and fit vesicles
 ```
 
 
-## CLI Usage 
+## Full CLI Usage 
 Installing will create a command line script `gaussian_fit_fwhm`:
 
 ```
