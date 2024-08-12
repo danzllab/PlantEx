@@ -1,4 +1,6 @@
 # Vesicle FWHM - Gaussian Fit FWHM
+---
+FWHM quantifications for vesicles in 3D using Gaussian fitting at filtered local maxima
 
 ## Installation
 
