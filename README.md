@@ -1,7 +1,7 @@
 ## PlantEx
 ---
 
-Here is the code used in *Super-resolution expansion microscopy in plant roots* [1]. More details can be found in the vesicle_fwhm and the method section [1]. The distortion analysis was adapted from the Click-ExM project [2]:\
+Here is the code used in *Super-resolution expansion microscopy in plant roots* [1]. More details can be found in the vesicle_fwhm and the method section [1]. The distortion analysis was adapted from the Click-ExM [2]:\
 https://github.com/Yujie-S/Click-ExM_data_process_and_example.git
 
 
