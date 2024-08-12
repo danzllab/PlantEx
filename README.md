@@ -1,11 +1,13 @@
 ## PlantEx
 ---
+This is custom code associated with the publication Super-resolution expansion microscopy in plant roots [1] for the determination of vesicle diameters. Details of the analysis are described in the methods section of that manuscript. Distortion analysis used in the manuscript was adapted from a publication by the Chen group [2], with the relevant code available via github:\ 
+https://github.com/Yujie-S/Click-ExM_data_process_and_example.git.
 
-Here is the code used in *Super-resolution expansion microscopy in plant roots* [1]. More details can be found in the method section [1]. The distortion analysis was adapted from the Click-ExM [2]:\
-https://github.com/Yujie-S/Click-ExM_data_process_and_example.git
+### Contents of this repository
+[vesicle_fwhm](vesicle_fwhm) - code for FWHM quantification
 
-### Contents
-[vesicle_fwhm](vesicle_fwhm) - the repository with the code for FWHM quantification
+### License
+The code is available under the AGPL-3.0 license.
 
 ### Correspondance:
 johann.danzl@ist.ac.at\
