@@ -1,6 +1,8 @@
-# Vesicle FWHM - Gaussian Fit FWHM
+# Vesicle quantification - Gaussian fit FWHM
 ---
 FWHM quantifications for vesicles in 3D using Gaussian fitting at filtered local maxima
+
+*Code has been tested on Windows 10 and Ubuntu Linux with Python 3.9*
 
 ## Installation
 
@@ -23,8 +25,9 @@ pip install -e .
 The repository contains a test stack: [test_stack](test_data/test.stack.tif). Download or clone this repository, then:
 
 ```
-gaussian_fit_fwhm test_data\test_stack.tif -s 1 -cr 10 -t 0.25 -p 18
+gaussian_fit_fwhm test_data/test_stack.tif -s 1 -cr 10 -t 0.25 -p 18
 ```
+
 
 ## Output
 For an input tif file called `test_stack.tif` the script will generate:
