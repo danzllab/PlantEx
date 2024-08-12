@@ -14,12 +14,12 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = "gaussian_fit_fwhm"
 DESCRIPTION = "Gaussian fit FWHM 2d/3d"
-URL = "https://git.ista.ac.at/csommer/gaussian_fit_fwhm"
+URL = "https://github.com/danzllab/PlantEx/tree/main/vesicle_fwhm"
 EMAIL = "chrisotphsommer23@gmail.com"
 AUTHOR = "Christoph Sommer"
 REQUIRES_PYTHON = ">=3.6.0"
 VERSION = None
-LICENSE = "BSDv3"
+LICENSE = "AGPLv3"
 # What packages are required for this module to be executed?
 REQUIRED = [
     "numpy",
@@ -104,7 +104,7 @@ setup(
     classifiers=[
         # Trove classifiers
         # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
-        "License :: OSI Approved :: BSDv3 License",
+        "License :: OSI Approved :: AGPLv3 License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
