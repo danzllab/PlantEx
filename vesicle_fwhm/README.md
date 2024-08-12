@@ -1,11 +1,40 @@
-# Gaussian Fit FWHM
+# Vesicle FWHM - Gaussian Fit FWHM
 
-## Install
+## Installation
+
+#### From github
+
 ```bash
-pip install git+https://git.ista.ac.at/csommer/gaussian_fit_fwhm.git
+pip install -e "git+https://github.com/danzllab/PlantEx.git#egg=gaussian_fit_fwhm&subdirectory=vesicle_fwhm"
 ```
 
-## Usage 
+#### Local installation from source
+
+```bash
+git clone https://github.com/danzllab/PlantEx.git
+cd PlantEx/vesicle_fwhm
+
+pip install -e .
+```
+
+## Example
+The repository contains a test stack: [test_stack](test_data\test.stack.tif). Download or clone this repository, then:
+
+```
+gaussian_fit_fwhm test_data\test_stack.tif -s 1 -cr 10 -t 0.25 -p 18
+```
+
+## Output
+For an input tif file called `test.stack.tif` the script will generate:
+
+```python
+├── test.stack.tif
+├── test.stack_crops.tif            # the cropped single 3D fits
+└── test.stack_gaussian_fits.csv    # table containing locations and FWHM of all found vesicles
+```
+
+
+## CLI Usage 
 Installing will create a command line script `gaussian_fit_fwhm`:
 
 ```
@@ -34,12 +63,5 @@ optional arguments:
                         Show FWHM plots at the end of the run
 ```
 
-## Output
-For an input tif file called `my_input.tif` the script will generate:
 
-```
-├── my_input.tif
-├── my_input_crops.tif
-└── my_input_gaussian_fits.csv
-```
 
