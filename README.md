@@ -1,6 +1,6 @@
 ## PlantEx
 ---
-This is custom code associated with the publication Super-resolution expansion microscopy in plant roots [1] for the determination of vesicle diameters. Details of the analysis are described in the methods section of that manuscript. Distortion analysis used in the manuscript was adapted from a publication by the Chen group [2], with the relevant code available via github:\ 
+This is custom code associated with the publication Super-resolution expansion microscopy in plant roots [1] for the determination of vesicle diameters. Details of the analysis are described in the methods section of that manuscript. Distortion analysis used in the manuscript was adapted from a publication by the Chen group [2], with the relevant code available via github: \
 https://github.com/Yujie-S/Click-ExM_data_process_and_example.git.
 
 ### Contents of this repository
